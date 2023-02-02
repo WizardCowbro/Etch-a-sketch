@@ -1,0 +1,35 @@
+
+.hover {
+    background-color: black;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex: content;
+}
+
+.box {
+    display: flex;
+    border: 1px solid black;
+}
+
+.screen {
+    max-height: 600px;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+
+/* html, body {margin: 0; height: 100%; overflow: hidden} */
+
